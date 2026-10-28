@@ -1,0 +1,21 @@
+{
+  "description": "Proposed source release only; no Git staging, commit, remote or publication is performed.",
+  "files": [
+    ".gitattributes", ".gitignore", ".node-version", ".npmrc",
+    "AGENTS.md", "LICENSE", "README.md", "cordis.patch.yml", "package.json",
+    "pnpm-lock.yaml", "pnpm-workspace.yaml", "tsconfig.json", "source-release.json",
+    "docs/QUICKSTART.md", "docs/DEVELOPMENT.md",
+    "scripts/build-trial.ps1", "scripts/build-source.mjs", "scripts/check-distribution.mjs",
+    "scripts/smoke-native.mjs", "scripts/smoke-local-project.mjs",
+    "experiments/research-workflows/reviews/model-artifacts/R02.lean"
+  ],
+  "trees": [
+    "src", "tests", "examples/order-bound", "experiments/prototype/fixtures/local-project"
+  ],
+  "localOnly": [
+    "Raw sessions, thinking streams, credentials, environment files and node_modules",
+    "Historical run results, account identifiers, diagnostic logs and machine-specific development setup",
+    "Third-party experimental adaptations with unresolved redistribution permission",
+    "Git metadata, generated builds, archives and caches"
+  ]
+}

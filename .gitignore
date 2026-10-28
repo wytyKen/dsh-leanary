@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+.cache/
+.dsh/
+artifacts/
+*.log
+.env
+.env.*
+!.env.example
+/PRIVATE.md
+.DS_Store
+Thumbs.db
+Desktop.ini
